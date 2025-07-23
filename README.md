@@ -155,7 +155,7 @@ userWallet,creditScore
 
 ### System Architecture
 
-![alt text](data\assets\image9.png)
+![alt text](data/assets/image9.png)
 
 
 ### My opinions or changes i would like to bring :

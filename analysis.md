@@ -17,11 +17,11 @@ The scoring logic incorporates several behavioral features:
 
 The distribution of credit scores respresentation using histogram (the values are appoximated for visual representation ):
 
-![alt text](data\assets\image.png)
+![alt text](data/assets/image.png)
 
 Distribution graph across the ranges from 0–100, 100–200, etc.
 
-![alt text](data\assets\image8.png)
+![alt text](data/assets/image8.png)
 ---
 
 ## Behavioral Insights
@@ -65,29 +65,29 @@ Distribution graph across the ranges from 0–100, 100–200, etc.
 
 
 ### This code avaiable in utils/score_applier.py
-![alt text](data\assets\image2.png)
+![alt text](data/assets/image2.png)
 
 ---
 ## Correalation Matrix Along with Score
 
-![alt text](data\assets\image3.png)
+![alt text](data/assets/image3.png)
 
-![alt text](data\assets\image4.png)
+![alt text](data/assets/image4.png)
 
 
 ## Insights Found by Me 
 
 The scores are hitting 0 due to very high liquidation and high borrowing without repaying it, Out of 3497 wallets 6 of them falls under 200 score 
 
-![alt text](data\assets\image5.png)
+![alt text](data/assets/image5.png)
 
 Few Wallets hitting perfect scores because they  get through very little negative rewards by the logic (remember we also used clip function in predict so >1000 is also 1000 ) ,  Out of 3497 wallets 7 of them hit perfect score  
 
-![alt text](data\assets\image6.png)
+![alt text](data/assets/image6.png)
 
 Model Important Score differs from correlation we have observed , this is due to model is non-linear and it finds how much the attribute affects the score along with other attributes
 
-![alt text](data\assets\image7.png)
+![alt text](data/assets/image7.png)
 
 
 ## Limitations of my work

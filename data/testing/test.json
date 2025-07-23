@@ -1,0 +1,20 @@
+[
+  {
+    "userWallet": "0x123...",
+    "timestamp": 1629178166,
+    "action": "deposit",
+    "actionData": {
+      "amount": "1000000000",
+      "assetPriceUSD": "1.00"
+    }
+  },
+  {
+    "userWallet": "0x123...",
+    "timestamp": 1629180000,
+    "action": "borrow",
+    "actionData": {
+      "amount": "500000000",
+      "assetPriceUSD": "1.00"
+    }
+  }
+]
